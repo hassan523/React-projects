@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+:root {
+  --primary-color: #db3685;
+  --bg-color: white;
+  --btn-bg-color: white;
+  --font-primary-color: black;
+  --font-inter-color: #db3685;
+  --font-secondary-color: white;
+  --font-family-roboto: "Roboto", sans-serif;
+  --font-family-poppins: "Poppins", sans-serif;
+  --font-family-mulish: "Mulish", sans-serif;
+}
+
+body {
+  font-family: "Work Sans", sans-serif !important;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-family: var(--font-family-poppins) !important;
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-transform: none;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--btn-bg-color);
+  border: none;
+  border-radius: 12px !important;
+  padding: 10px 10px 10px 10px;
+  font-family: var(--font-family-poppins) !important;
+}
+
+button:hover {
+  border-radius: 10px !important;
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+p {
+  color: var(--font-primary-color);
+  font-family: "Work Sans", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--font-primary-color);
+  font-family: "Work Sans", sans-serif !important;
+}
+
+ul,
+li {
+  list-style: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-style-2 {
+  background-color: var(--btn-bg-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 12px !important;
+  padding: 10px 10px 10px 10px;
+}
+.btn-style-2:hover {
+  border-radius: 10px !important;
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.go3842760039:before {
+  content: "•";
+  color: white;
+  background-color: var(--primary-color) !important;
+}
+
+.go433304200:before {
+  content: "✓";
+  color: white;
+  background-color: var(--primary-color) !important;
+}
+
+.go2150698616 span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--primary-color) !important;
+}
